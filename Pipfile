@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+speechrecognition = "*"
+scikit-learn = "==0.19.2"
+findspark = "*"
+flask = "*"
+flask-cors = "*"
+aubio = "*"
+pandas = "*"
+pocketsphinx = "*"
+soundanalyse = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
